@@ -12,7 +12,7 @@ function ChatBot() {
     setMessages(newMessages);
   
     try {
-      const res = await axios.post('http://portfolio-production-50f2.up.railway.app/api/chat', {
+      const res = await axios.post('gondola.proxy.rlwy.net:32918', {
         message: input
       });
   
