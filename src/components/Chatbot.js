@@ -12,7 +12,7 @@ function ChatBot() {
     setMessages(newMessages);
   
     try {
-      const res = await axios.post('https://portfolio-production-50f2.up.railway.app:8080/api/chat', {
+      const res = await axios.post('https://portfolio-production-50f2.up.railway.app/api/chat', {
         message: input
       });
   
